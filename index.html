@@ -28,8 +28,15 @@
 
 <body class="">
     <header class="mb-[500px]">
-        <div class="navbar px-[140px] py-[37px] bg-[#FFF9F4]">
-            <div class="navbar-start">
+        <div class="navbar lg:px-[140px] py-[37px] bg-[#FFF9F4]">
+            <div class="navbar-start flex w-full justify-between  ">
+
+                <div class="flex gap-2">
+
+                    <img src="./c1-assets/logo-header.png" alt="">
+                    <h2 class="text-[26px] text-[#111111] hidden lg:flex ">Browse<span
+                            class="text-[#FFDC26]">4</span>Pets</h2>
+                </div>
                 <div class="dropdown ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -38,18 +45,23 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-[20px]">
-                        <li><a>Find a pet</a></li>
-                        <li><a>Breeds</a></li>
+                    <div class="flex justify-center ">
 
-                        <li><a>Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="flex gap-2">
+                        <ul tabindex="0"
+                            class="menu  menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-[20px] mr-7">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
 
-                    <img src="./c1-assets/logo-header.png" alt="">
-                    <h2 class="text-[26px] text-[#111111]">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+                            <li><a>Contact us</a></li>
+                            <li><i class="fa-regular fa-bell"></i></li>
+                            <li><i class="ms-4 fa-solid fa-magnifying-glass"></i></li>
+                            <li> <button class="ms-4 btn btn-outline btn-primary">Login</button></li>
+                            <li><button class="ms-4 hover:bg-green-400 btn btn-active btn-primary">Register</button>
+                            </li>
+
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -60,18 +72,19 @@
                     <li><a>Contact us</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end hidden lg:flex ">
                 <i class="fa-regular fa-bell"></i>
                 <i class="ms-4 fa-solid fa-magnifying-glass"></i>
                 <button class="ms-4 btn btn-outline btn-primary">Login</button>
                 <button class="ms-4 hover:bg-green-400 btn btn-active btn-primary">Register</button>
+
             </div>
         </div>
         <!-- banner -->
-        <div class="max-w-7xl mx-auto mt-16 relative flex">
+        <div class="lg:max-w-7xl mx-auto mt-16 lg:relative lg:flex">
 
             <!-- text -->
-            <div class="relative z-10">
+            <div class="lg:relative w-full z-10">
                 <h2 class="text-6xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
                 <p class="text-xl mt-5">Discover a world of treats, toys, and essentials handpicked for <br> your
                     furry friends. Shop now and make tails wag with joy!</p>
@@ -79,8 +92,8 @@
 
             </div>
             <!-- image -->
-            <div class="absolute w-[1200px] z-0    right-7   ">
-                <img class="z-0" src="/c1-assets/cat-big.png" alt="">
+            <div class="absolute lg:w-[1200px] z-0    right-7   ">
+                <img class="z-0" src="./c1-assets/cat-big.png" alt="">
             </div>
 
 
@@ -101,109 +114,124 @@
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/dog-cartoon.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/dog-cartoon.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Dog</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Dog</h2>
+                        <p>3 items</p>
+                    </div>
+
                 </div>
             </div>
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/fish-cartoon.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/fish-cartoon.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Fish</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Fish</h2>
+                        <p>3 items</p>
+                    </div>
+
                 </div>
             </div>
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/cat-cartoon.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/cat-cartoon.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Cat</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Cat</h2>
+                        <p>3 items</p>
+                    </div>
+
                 </div>
             </div>
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/bird-cartoon.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/bird-cartoon.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Bird</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Bird</h2>
+                        <p>3 items</p>
+                    </div>
+
                 </div>
             </div>
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/cute-pet-small.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/cute-pet-small.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Small Pet</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Small Pet</h2>
+                        <p>3 items</p>
+                    </div>
+
                 </div>
             </div>
             <div class="flex justify-center">
 
                 <div class="max-w-[200px] w-full h-[254px] bg-[#F9DF8A] border rounded-lg flex flex-col items-center">
-                  <div class="avatar mt-9">
-                    <div class="w-24 rounded-full bg-white p-8">
-    
-                        <img src="/c1-assets/rabbit-cartoon.png" alt="">
+                    <div class="avatar mt-9">
+                        <div class="w-24 rounded-full bg-white p-8">
+
+                            <img src="/c1-assets/rabbit-cartoon.png" alt="">
+                        </div>
+
                     </div>
-    
-                  </div>
-                  <div class="text-center  mt-6 space-y-3">
-    
-                      <h2 class="font-bold">Rabbit</h2>
-                      <p>3 items</p>
-                  </div>
-    
+                    <div class="text-center  mt-6 space-y-3">
+
+                        <h2 class="font-bold">Rabbit</h2>
+                        <p>3 items</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- trending pet products -->
+        <div class="mt-32">
+
+            <div class="card bg-base-100 w-96 shadow-sm">
+                
+                <div class="card-body">
+                    <h2 class="card-title">T-shirt for Dogs</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
                 </div>
             </div>
         </div>
